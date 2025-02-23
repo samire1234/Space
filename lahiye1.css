@@ -1,0 +1,1079 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+.nav {
+  margin: auto;
+  width: 95%;
+  height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+
+}
+
+.sol {
+  width: 45%;
+  height: 75px;
+  font-size: 17px;
+  padding-left: 30px;
+  padding-top: 18px;
+  letter-spacing: 1px;
+  
+}
+.sol a{
+  text-decoration: none;
+  color: white;
+}
+
+.sag {
+  display: flex;
+  width: 55%;
+  height: 75px;
+  align-items: center;
+}
+
+.sag .ul1 {
+  display: flex;
+  margin-left: 60px;
+}
+
+.sag .ul1 .li1 {
+  margin-left: 40px;
+  font-size: 18px;
+  position: relative;
+
+}
+
+.sag .ul1 .li1::after {
+  width: 0%;
+  content: " ";
+  background-color: rgb(255, 218, 86);
+  position: absolute;
+  height: 2px;
+  left: 0px;
+  bottom: 0px;
+  top: 25px;
+  transition: 0.5s;
+
+}
+
+.sag .ul1 .li1:hover {
+  color: rgb(255, 218, 86);
+  transition: 0.5s;
+}
+
+.sag .ul1 .li1:hover::after {
+  width: 100%;
+}
+
+.sag .ul1 .li1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.sag button {
+  width: 18%;
+  height: 40px;
+  border-radius: 0.8cm;
+  border: none;
+  outline: none;
+  margin-left: 40px;
+  font-size: 18px;
+  color: rgb(14, 19, 41);
+  background-color: rgb(255, 218, 86);
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+.sag button:hover {
+
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.ekran1 {
+  width: 100%;
+  height: 950px;
+  position: relative;
+  background-image: url(./1.png);
+  background-size: cover;
+  background-position: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.fa-bars{
+  display: none !important;
+
+}
+.barss{
+  display: none !important;
+
+}
+
+@media(max-width:768px) {
+  .sol{
+    position: relative;
+  }
+  .sol a {
+    padding-left: 25px !important;
+    position: absolute;
+    padding-top: 10px;
+    left: 0%;
+    font-size: 34px !important;
+  }
+   .sag .ul1{
+    display: none;
+   }
+   .sag .ul1 .li1{
+    display: none;
+   }
+  .fa-bars {
+    display: block!important;
+    position: absolute;
+    padding: 40px 0px;
+     color: white;
+  font-size: 22px;
+  top: 0%;
+  right: 60px !important;
+  }
+  .sag button{
+   display: none !important;
+  }
+  .div2 p{
+    font-size: 17px!important;
+  }
+  .div3{
+    width: 90%!important;
+    margin-left: 0px!important;
+    padding: 0px 15px!important;
+  }
+  .ilk{
+    width: 100%!important;
+  
+  }
+  .div3 .ilk h1 {
+    font-size: 80px !important;
+  }
+  .div3 .orta h1 {
+    font-size: 80px !important;
+  }
+  .div3 .son h1 {
+    font-size: 80px !important;
+  }
+  .son{
+    width: 100% !important;
+  }
+  .gif{
+    width: 100%!important;
+  }
+  .gif img{
+    margin-top: 50px !important;
+   
+    width: 80%!important;
+    top: 0% !important;
+  }
+  .div2{
+    width: 100%!important;
+  }
+  .yazi h1{
+    margin-left: 33px!important;
+    font-size: 75px !important;
+  }
+  .div2 {
+    height: 600px !important;
+  }
+  .div2 p{
+    padding: 0px 20px !important;
+    line-height: 20px;
+  letter-spacing: 0.2px;
+  font-size: 15px !important;
+  }
+  .star1{
+    width: 260px !important;
+    height: 170px !important;
+  }
+  .ekran2{
+    height:3500px!important;
+  }
+  .stars{
+    top: 20%!important;
+  }
+  #div4{
+    margin-top: 680px!important;
+  }
+  .div5{
+    width: 100%!important;
+    margin-left: 0px !important;
+    padding: 0px 20px !important;
+  }
+  .div6{
+    width: 100%!important;
+  }
+  .h2{
+    width: 90%!important;
+
+  }
+  .h2 h1{
+    width: 80%!important;
+    font-size: 60px !important;
+  }
+  .h11{
+    left: 6% !important;
+    font-size: 37px !important;
+  }
+  .div6 img{
+    width: 100%!important;
+    top: 55%!important;
+    left: 0%!important;
+  
+  }
+  .swiper-wrapper{
+    margin-top: 300px!important;
+  }
+   .modal{
+    top: 80%!important;
+    height: 500px !important;
+   }
+   .modal1{
+    width: 85%!important;
+    height: 400px !important;
+   }
+   .modal1 p{
+    font-size: 13px !important;
+   }
+   .btn2{
+    width: 4% !important;
+   }
+   .modal2{
+    top: 58%!important;
+    display: none !important;
+   }
+   .modal2 {
+    height: 270px!important;
+   }
+   .modal2 img{
+    height: 150px!important;
+   }
+   .swiper-slide img{ 
+    width: 100%!important;
+   }
+   .swiper-slide{
+     margin-left: 10px!important;
+     width: 170px !important;
+   }
+   .swiper-slide img{
+      height: 400px!important;
+   }
+   .asagi h1{
+    font-size: 20px !important;
+   }
+   .p1 p{
+    padding: 10px 0px !important;
+   }
+   .h11 h1{
+    font-size: 50px!important;
+    top: 20%!important;
+   }
+  
+   .ekran-bars ul li{
+    margin-top: 13px !important;
+    text-align: center;
+   }
+   .ekran-bars ul li a{
+    text-decoration: none !important;
+font-size: 19px !important;
+color:  rgb(255, 218, 86) !important;
+   }
+   .ekran-bars{
+    width: 50%;
+    backdrop-filter: blur(10px);
+     background-color: rgba(255,255,255,0.2);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    position: fixed;
+    flex-direction: column;
+    top: 0%;
+  right: 0px;
+    display: none;
+   height:100vh !important;
+   z-index: 999;
+   padding: 80px 0px;
+  }
+  .btn-bars{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+  }
+
+}
+.ekran-bars{
+  display: none;
+}
+
+.log {
+  width: 100%;
+  height: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(23, 22, 22, 0.9);
+  position: absolute;
+  top: 0%;
+  text-align: center;
+  display: none;
+}
+
+.log1 {
+  width: 30%;
+  height: 440px;
+  background-image: url(https://i.pinimg.com/474x/90/e4/4c/90e44cb84b3bd2eb9f977f365952a4b2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 0.4cm;
+  margin: auto;
+  margin-top: 80px;
+  left: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+}
+
+.email {
+  width: 80%;
+  height: 50px;
+  background-color: rgba(12, 21, 49, 0.9);
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 9%;
+  border-radius: 0.5cm;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  font-size: 16px;
+}
+
+.psw {
+  background-color: rgba(12, 21, 49, 0.9);
+  color: white;
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  top: 40%;
+  left: 9%;
+  border-radius: 0.5cm;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  font-size: 16px;
+
+}
+
+.btn3 {
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  top: 56%;
+  left: 9%;
+  border-radius: 0.5cm;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  font-size: 16px;
+  color: rgba(12, 21, 49);
+  background-color:  rgb(255, 218, 86);
+  font-size: 17px;
+  transition: 1s;
+  cursor: pointer;
+}
+.btn3:hover{
+  transform: scale(1.1);
+}
+
+.btn4 {
+  width: 2%;
+  position: absolute;
+  left: 0px;
+}
+
+.ekran2 {
+  width: 100%;
+  height: 3000px;
+  position: relative;
+  background-image: url(./homepage-background1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#div1 {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.yazi h1 {
+  font-size: 85px;
+  letter-spacing: 4px;
+  font-weight: 600 !important;
+  color: rgb(255, 218, 86);
+  margin-left: 110px;
+  /* animation-name: animasiya1; */
+  animation-duration: 1.3s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  top: 0%;
+  left: 15%;
+  position: absolute;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animasiya1 {
+  from {
+    top: 150px;
+    opacity: 1;
+  }
+
+  to {
+    top: 15px;
+    opacity: 1;
+  }
+}
+
+.yazi {
+  width: 100%;
+  height: 105px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  position: relative;
+}
+
+.div2 {
+  text-align: center;
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  height: 500px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+
+.div2 p {
+  line-height: 24px;
+  letter-spacing: 0.7px;
+  padding: 0px 50px;
+  top: 0%;
+  text-align: justify;
+  font-size: 17px;
+  /* animation-name: animasiya2; */
+  animation-duration: 3.2s;
+  animation-delay: 0.8s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: absolute;
+  animation-timing-function: ease;
+}
+
+@keyframes animasiya2 {
+  0% {
+    top: 500px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 150px;
+    opacity: 1;
+  }
+}
+
+.gif {
+  width: 45%;
+  height: 400px;
+  position: relative;
+
+}
+
+.gif img {
+  position: absolute;
+  left: 0%;
+  top: 7%;
+}
+
+.div3 {
+  width: 50%;
+  height: 300px;
+  margin-top: 200px;
+  margin-left: 50px;
+  padding: 0px 50px;
+  color: rgb(255, 218, 86);
+}
+
+.div3 .ilk {
+  width: 40%;
+  height: 110px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+  padding: 8px 0px;
+}
+
+.div3 .ilk h1 {
+  font-size: 100px;
+  position: absolute;
+  animation-name: animasiya5;
+  animation-duration: 1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  animation-timing-function: ease;
+}
+
+@keyframes animasiya5 {
+  from {
+    top: 100px;
+    opacity: 1;
+  }
+
+  to {
+    top: 00px;
+    opacity: 1;
+  }
+}
+
+.div3 .orta {
+  width: 100%;
+  height: 110px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+  padding: 8px 0px;
+
+}
+
+.orta h1 {
+  font-size: 100px;
+  letter-spacing: 4px;
+  position: absolute;
+  animation-name: animasiya6;
+  animation-delay: 0.4s;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  animation-timing-function: ease;
+  position: absolute;
+
+}
+
+@keyframes animasiya6 {
+  from {
+    top: 90px;
+    opacity: 1;
+  }
+
+  to {
+    top: 00px;
+    opacity: 1;
+  }
+}
+
+.div3 .son {
+  width: 50%;
+  height: 110px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+  padding: 8px 0px;
+
+}
+
+.son h1 {
+  font-size: 100px;
+  position: absolute;
+  animation-name: animasiya7;
+  animation-duration: 1.5s;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  animation-timing-function: ease;
+  position: absolute;
+}
+
+@keyframes animasiya7 {
+  from {
+    top: 100px;
+    opacity: 1;
+  }
+
+  to {
+    top: 00px;
+    opacity: 1;
+  }
+}
+
+#div4 {
+  width: 100%;
+  height: 500px;
+  margin-top: 300px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.div5 {
+  width: 40%;
+  height: 220px;
+  padding: 0px 35px;
+  margin-left: 70px;
+  position: relative;
+}
+
+.p1 p {
+  top: 0%;
+  padding: 15px 5px;
+  letter-spacing: 1px;
+  /* animation-name: animasi; */
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+  position: absolute;
+}
+
+@keyframes animasi {
+  from {
+    top: 130px;
+    opacity: 1;
+  }
+
+  to {
+    top: 10px;
+    opacity: 1;
+  }
+}
+
+.h11 {
+  width: 80%;
+  height: 100px;
+  top: -18%;
+  left: 6%;
+  position: absolute;
+  border: 1px solid transparent;
+  overflow: hidden;
+
+}
+
+.h11 h1 {
+  font-size: 70px;
+  letter-spacing: 2px;
+  line-height: 86px;
+  font-weight: 100;
+  /* animation-name: animasiya3; */
+  animation-duration: 1.6s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+  position: absolute;
+}
+
+@keyframes animasiya3 {
+  from {
+    top: 100px;
+    opacity: 1;
+  }
+
+  to {
+    top: 00px;
+    opacity: 1;
+  }
+}
+
+.h2 h1 {
+  line-height: 70px;
+  font-size: 90px;
+  color: rgb(255, 218, 86);
+  font-weight: 700;
+  letter-spacing: 4px;
+  /* animation-name: animasiya4; */
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+}
+
+.h2 {
+  width: 100%;
+  height: 120px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  top: 32%;
+  position: absolute;
+
+}
+
+.p1 {
+  width: 100%;
+  height: 130px;
+  text-align: justify;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 24px;
+  top: 77%;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+
+@keyframes animasiya4 {
+  from {
+    top: 180px;
+    opacity: 1;
+  }
+
+  to {
+    top: 00px;
+    opacity: 1;
+  }
+}
+
+.div6 {
+  width: 60%;
+  height: 500px;
+
+}
+
+.div6 img {
+  width: 50%;
+  position: absolute;
+  left: 49%;
+  /* transform:rotate(66deg); */
+  top: -22%;
+}
+
+.div7 {
+  width: 30%;
+  height: 80px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+  left: -52%;
+  top: 15.5%;
+}
+
+.btn1 {
+  width: 45%;
+  height: 52px;
+  background-color: rgb(255, 218, 86);
+  border: none;
+  top: 0%;
+  left: 2%;
+   font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  letter-spacing: 1px;
+  border-radius: 0.8cm;
+  /* animation-name: animasi1; */
+  animation-duration: 1.1s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+  position: absolute;
+}
+.btn1 a{
+  text-decoration: none;
+  font-size: 22px;
+}
+
+@keyframes animasi1 {
+  from {
+    top: 100px;
+    opacity: 1;
+  }
+
+  to {
+    top: 10px;
+    opacity: 1;
+  }
+}
+
+.btn1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.swiper {
+  width: 100% !important;
+  height: 50%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8cm;
+  margin-right: 0px !important;
+  margin-left: 30px;
+  position: relative;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 500px;
+  display: block;
+  padding:160px 10px;
+  padding-top: 53px;
+  margin-top: 100px;
+  object-fit: cover;
+  border-radius: 0.8cm;
+  border: 2px solid white;
+
+}
+.asagi{
+  width: 100%;
+  height: 100px;
+font-size: 16px;
+  position: absolute;
+  top: 75%;
+  padding: 20px 0px;
+  color: white;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  letter-spacing: 2px;
+
+}
+
+.swiper-wrapper {
+  width: 0% !important;
+}
+
+
+#planets {
+  width: 90%;
+  height: 500px;
+  margin: 250px auto;
+  position: relative;
+}
+
+.modal {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(23, 22, 22, 0.9);
+  position: absolute;
+  top: 70%;
+  left: 0px;
+  z-index: 100000;
+  display: none;
+}
+
+.modal img {
+  width: 100%;
+  height: 100vh;
+}
+
+.modal1 {
+  width: 70%;
+  height: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+  box-shadow: 2px 2px 5px 7px rgb(56, 56, 56);
+  background-color: rgb(17, 29, 56);
+  color: white;
+  position: relative;
+
+}
+
+.modal1 img {
+  width: 50%;
+  height: 570px;
+}
+
+.modal1 h1 {
+margin: auto;
+margin-top: 20px;
+  font-size: 30px;
+}
+
+.modal1 p {
+  position: absolute;
+  top: 75px;
+  left: 0px;
+  padding: 0px 20px;
+}
+
+.btn2 {
+  width: 3%;
+  height: 20px;
+  position: absolute;
+  right: 0%;
+}
+
+.btn1:hover {
+  background-color: white;
+  transition: 1s;
+}
+
+.modal2 {
+  width: 100%;
+  height: 230px;
+  position: absolute;
+  top: 48%;
+  left: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modal2 img {
+  width: 25%;
+  height: 200px;
+  border-radius: 0.8cm;
+  transition: 1s;
+}
+.modal2 img:hover{
+  transform: scale(1.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.stars {
+  width: 90%;
+  height: 760px;
+  position: relative;
+  top: 3%;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+.stars video{
+  margin-top: 15px;
+}
+.blackh1{
+  text-align: center;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.blackh1 h1{
+  font-size: 80px;
+  letter-spacing:4px;
+  color:  rgb(255, 218, 86);
+  position: relative;
+left: 34%;
+top: 0%;
+/* animation-name: animasiya8; */
+ animation-duration: 1.1s;
+ animation-delay: 0.5s;
+ animation-fill-mode: forwards;
+ animation-timing-function: ease-in-out;
+ opacity: 0;
+ position: absolute;
+}
+
+ 
+
+@keyframes animasiya8 {
+ from {
+   top: 100px;
+   opacity: 1;
+ }
+
+ to {
+   top: 00px;
+   opacity: 1;
+ }
+}
+
+
+
+
+.f1 .mainfinal{
+  width: 100%;
+height: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+text-align: center;
+margin-top: 170px;
+}
+
+.f1 .mainfinal .firsticons{
+  width: 66%;
+  display: flex;
+  color: gray;
+  margin: 20px 18% ;
+
+}
+.f1 .mainfinal .firsticons a{
+  color: #fff !important;
+  border: 1px solid rgba(255,255,255,0.2);
+  display: inline-block;
+  padding:11px 30px;
+  text-transform: capitalize;
+  font-size: 17px;
+  border-radius: .3cm;
+  margin: 20px 10px;
+  text-decoration: none;
+  margin: auto;
+
+}
+.f1 .firsticons i{
+  font-size: 27px;
+  margin-right: 10px;
+  transition: all .4s ease-out 0s;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+.red{
+  font-size: 13PX;
+text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 37%;
+margin-top: 30px;
+color: rgb(138, 153, 192);
+letter-spacing: 0.41px;
+}
