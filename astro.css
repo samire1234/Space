@@ -1,0 +1,1055 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.bar{
+  display: none !important;
+}
+.ekran-bars{
+  display: none;
+}
+
+.ekran1 {
+  width: 100%;
+  height: 3150px;
+  position: relative;
+  background-image: url(./homepage-background1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  margin: auto;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+}
+
+.sol {
+  width: 45%;
+  height: 75px;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 60px;
+  padding-top: 18px;
+  letter-spacing: 1px;
+}
+.sol a{
+  text-decoration: none;
+  color: white;
+}
+
+.sag {
+  display: flex;
+  width: 55%;
+  height: 75px;
+  font-family: sans-serif;
+  align-items: center;
+  /* justify-content: space-around;
+   padding: 0px 15px; */
+}
+
+.sag .ul1 {
+  display: flex;
+  margin-left: 180px;
+}
+
+.sag .ul1 .li1 {
+  margin-left: 40px;
+  font-size: 18px;
+  position: relative;
+
+}
+
+.sag .ul1 .li1::after {
+  width: 0%;
+  content: " ";
+  background-color: rgb(255, 218, 86);
+  position: absolute;
+  height: 2px;
+  left: 0px;
+  bottom: 0px;
+  top: 25px;
+  transition: 0.5s;
+
+}
+
+.sag .ul1 .li1:hover {
+  color: rgb(255, 218, 86);
+  transition: 0.5s;
+}
+
+.sag .ul1 .li1:hover::after {
+  width: 100%;
+}
+
+.sag .ul1 .li1 a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+@media(max-width:768px) {
+  .ekran1{
+    height: 4500px!important;
+  }
+  .sol{
+    padding-left: 30px !important;
+  }
+  .sol h1 {
+    padding-left: 0px !important;
+  }
+   .sag .ul1{
+    display: none;
+   }
+   .sag .ul1 .li1{
+    display: none;
+   }
+ 
+  .sag button{
+    width: 28%;
+    margin-left: 230px;
+  }
+  .sekil{
+    /* margin-top: 500px!important; */
+    top: 20%!important;
+  }
+  .sol1{
+    width: 100%!important;
+    padding: 0px 30px !important;
+    margin-top: 15px !important;
+  }
+  .sag1{
+    width: 100%!important;
+  }
+  .div9{
+    position: relative!important;
+    top: 25%!important;
+  }
+  .yazi1 {
+    padding: 0px 0px !important;
+  }
+  .yazi2 hr{
+    margin: 25px 0px !important;
+  }
+  .yazi3{
+    height: 290px !important;
+    padding:0px 5px !important ;
+  }
+  .yazi3 p {
+    padding: 0px 0px !important;
+    letter-spacing: 0px !important;
+  }
+  .yazi4{
+    height: 400px !important;
+  }
+  .yazi4 img{
+    left: 0%!important;
+    padding: 0px 30px!important;
+    top: 14%!important;
+    height: 300px !important;
+    
+
+  }
+ 
+  .div11{
+    position: relative;
+    top: 50%!important;
+  }
+  .sol2{
+    width: 100%!important;
+    height: 400px !important;
+  }
+  .sag2{
+    width: 100%!important;
+  }
+  .yazi5{
+    height: 300px !important;
+  }
+  .yazi5 img{
+    left: 0%!important;
+    padding: 0px 27px!important;
+    top: 0%!important;
+    height: 300px !important;
+  }
+  .div10{
+  display: none!important;
+  }
+  .div11{
+    height: 500px !important;
+  }
+  .sag2{
+    padding: 0px 0px !important;
+  }
+  .yazi6{
+    padding: 0px 0px !important;
+  }
+  .yazi6 h1{
+    padding: 0px 20px !important;
+  }
+  .yazi7 hr{
+    padding: 0px 0px !important;
+   margin-left: 26px !important;
+  }
+  .yazi8{
+    height: 320px !important;
+    padding: 0px 60px !important;
+    margin-left: -25px !important;
+  }
+  .yazi8 p{
+    padding: 0px 0px !important;
+    letter-spacing: 0px !important;
+  }
+  .sol4{
+    width: 100% !important;
+  }
+  .sag4{
+    width: 100% !important;
+  }
+  .yazi12 h1{
+    padding: 17px 18px !important;
+  }
+  .yazi13 hr{
+    margin: 7px 45px !important;
+  }
+  .yazi14{
+    height: 380px !important;
+  }
+  .yazi14 p{
+    padding: 0px 20px !important;
+    letter-spacing: 0px !important;
+  }
+  .yazi15 img{
+    width: 84% !important;
+    left: 8% !important;
+  margin-top: 30px !important;
+  }
+  .sekilh1 h1{
+    left: 22% !important;
+  }
+  .sekil{
+    margin-top: 200px!important;
+    padding: 0px 20px !important;
+  }
+  .sekil1{
+    width: 46% !important;
+    padding: 0px 0px !important;
+  }
+  .sekil1 img{
+    padding-top: 15px !important;
+    height: 230px !important;
+  }
+  .sekilh1 h1{
+    left: 7% !important;
+  }
+  .ekran-bars ul li{
+    margin-top: 26px !important;
+    text-align: center;
+   }
+   .ekran-bars ul li a{
+    text-decoration: none !important;
+    font-size: 19px !important;
+    color:  rgb(255, 218, 86) !important;
+   }
+   .ekran-bars{
+    width: 50%;
+    backdrop-filter: blur(10px);
+     background-color: rgba(255,255,255,0.2);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    position: fixed;
+    flex-direction: column;
+    top: 0%;
+  right: 0px;
+   height:100vh !important;
+   padding: 85px 0px;
+   z-index: 999 !important;
+  }
+  .btn-bars{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .bar{
+    display: block !important;
+    position: absolute;
+    padding: 30px 0px;
+  color: white !important;
+  font-size: 23px;
+  top: 0%;
+  right: 60px !important;
+  }
+
+
+}
+
+
+.melumat {
+  width: 100%;
+  height: 2000px;
+}
+
+.div8 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.sol1 {
+  width: 50%;
+  height: 500px;
+  color: white;
+  padding: 0px 50px;
+  padding-top: 60px;
+}
+
+.yazi1 {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+  padding: 0px 50px;
+  padding-top: 60px;
+}
+
+.yazi1 h1 {
+  font-size: 40px;
+  padding: 8px 10px;
+  animation-name: animasiya1;
+  animation-duration: 1.8s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: absolute;
+  animation-timing-function: ease;
+}
+
+@keyframes animasiya1 {
+  0% {
+    top: 100px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 00px;
+    opacity: 1;
+  }
+}
+
+.yazi2 {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+  padding: 0px 10px;
+  padding-top: 60px;
+}
+
+.yazi2 hr {
+  width: 11%;
+  height: 2px;
+  background-color: white;
+  border: none;
+  position: relative;
+  margin: 25px 50px;
+  animation-name: animasiya2;
+  animation-duration: 1.8s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: absolute;
+  animation-timing-function: ease;
+
+}
+
+@keyframes animasiya2 {
+  0% {
+    top: 160px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 00px;
+    opacity: 1;
+  }
+}
+
+.yazi3 {
+  width: 100%;
+  height: 280px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+  padding: 0px 10px;
+  padding-top: 60px;
+}
+
+.yazi3 p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 0px 50px;
+  animation-name: animasiya3;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: absolute;
+  animation-timing-function: ease;
+}
+
+@keyframes animasiya3 {
+  0% {
+    top: 350px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 00px;
+    opacity: 1;
+  }
+}
+
+.sag1 {
+  width: 45%;
+  height: 500px;
+}
+
+.yazi4 {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+ 
+}
+
+.yazi4 img {
+  width: 100%;
+  height: 380px;
+  position: absolute;
+  left: -7%;
+  top: 50%;
+  animation-name: animasiya4;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  animation-timing-function: ease;
+   transition: 1s;
+}
+.yazi4 img:hover{
+  transform: scale(1.1);
+}
+
+@keyframes animasiya4 {
+  0% {
+    top: 500px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 70px;
+    opacity: 1;
+  }
+}
+
+
+.div9 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.sol2 {
+  width: 50%;
+  height: 500px;
+}
+.yazi5 {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.yazi5 img {
+  width: 100%;
+  height: 420px;
+  padding: 10px 0px;
+  position: relative;
+  left: 20%;
+  top: 8%;
+   /* animation-name: animasiya5; */
+   animation-duration: 1.8s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+   animation-timing-function: ease;
+   transition: 1s;
+ }
+ .yazi5 img:hover{
+  transform: scale(1.1);
+ }
+ 
+ @keyframes animasiya5 {
+   0% {
+     top:500px;
+     opacity: 1;
+   }
+ 
+   100% {
+     top: 70px;
+     opacity: 1;
+   }
+ }
+
+
+.sag2 {
+  width: 50%;
+  height: 500px;
+  padding: 67px 10px;
+  color: white;
+}
+
+  .yazi6 {
+    width: 90%;
+    height: 100px;
+    position: relative;
+    border: 1px solid transparent;
+    overflow: hidden;
+    font-size: 40px;
+  padding: 8px 65px;
+  margin-left: 10px;
+  }
+  
+  .yazi6 h1 {
+    font-size: 40px;
+    padding: 8px 10px;
+    /* animation-name: animasiya6; */
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    position: absolute;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes animasiya6 {
+    0% {
+      top: 100px;
+      opacity: 1;
+    }
+  
+    100% {
+      top: 00px;
+      opacity: 1;
+    }
+  }
+.yazi7{
+  width: 100%;
+  height: 30px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+  padding: 0px 10px;
+  padding-top: 60px;
+}
+.yazi7 hr {
+  width: 11%;
+  height: 2px;
+  background-color: white;
+  border: none;
+  position: relative;
+  margin: 25px 0px;
+  margin-left: 80px;
+   /* animation-name: animasiya7; */
+   animation-duration: 1.4s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+   position: absolute;
+   animation-timing-function: ease;
+ 
+ }
+ 
+ @keyframes animasiya7 {
+   0% {
+     top: 160px;
+     opacity: 1;
+   }
+ 
+   100% {
+     top: 00px;
+     opacity: 1;
+   }
+
+}
+
+  .yazi8 {
+    width: 100%;
+    height: 280px;
+    position: relative;
+    border: 1px solid transparent;
+    overflow: hidden;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 0px 105px;
+    text-align: justify;
+    margin-left: -20px;
+  }
+  
+  .yazi8 p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    /* animation-name: animasiy8; */
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    position: absolute;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes animasiya8 {
+    0% {
+      top: 350px;
+      opacity: 1;
+    }
+  
+    100% {
+      top: 00px;
+      opacity: 1;
+    }
+  }
+
+.div10 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.sol3 {
+  width: 50%;
+  height: 350px;
+  padding: 0px 50px;
+  padding-top: 60px;
+}
+.yazi9{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.yazi9 h1 {
+  font-size: 40px;
+  padding: 5px 25px;
+  margin-left:15px;
+  margin-top: 26px;
+  font-size: 40px;
+  /* animation-name: animasiya9; */
+  animation-duration: 1.8s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: absolute;
+  animation-timing-function: ease;
+}
+
+@keyframes animasiya9 {
+  0% {
+    top: 100px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 00px;
+    opacity: 1;
+  }
+}
+
+.yazi10{
+  width: 100%;
+  height: 320px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.yazi10 p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 0px 22px;
+  margin-left: 18px;
+  text-align: justify;
+  /* animation-name: animasiya10; */
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: absolute;
+  animation-timing-function: ease;
+}
+
+@keyframes animasiya10 {
+  0% {
+    top: 500px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 00px;
+    opacity: 1;
+  }
+}
+
+
+.sag3 {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.yuxari {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.yuxari img {
+  width: 50%;
+  height: 220px;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  transform: scaleX(-1);
+
+}
+
+.asagi {
+  width: 100%;
+  height: 250px;
+}
+.yazi11{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.yazi11 p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  padding: 10px 37px;
+  text-align: justify;
+  margin-top: 35px;
+  /* animation-name: animasiya11; */
+  animation-duration: 2.3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: absolute;
+  animation-timing-function: ease;
+}
+
+@keyframes animasiya11 {
+  0% {
+    top: 300px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 00px;
+    opacity: 1;
+  }
+}
+
+.div11 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sol4 {
+  width: 50%;
+  height: 500px;
+  color: white;
+  position: relative;
+}
+.yazi12{
+  width: 100%;
+  height: 130px;
+  color: white;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.yazi12 h1 {
+  font-size: 40px;
+  padding: 17px 60px;
+  margin-left: 20px;
+  margin-top: 40px;
+   /* animation-name: animasiya12; */
+   animation-duration: 2.2s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+   position: absolute;
+   animation-timing-function: ease;
+ }
+ 
+ @keyframes animasiya12 {
+   0% {
+     top: 300px;
+     opacity: 1;
+   }
+ 
+   100% {
+     top: 00px;
+     opacity: 1;
+   }
+ }
+.yazi13{
+  width: 100%;
+  height: 40px;
+  color: white;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.yazi13 hr {
+  width: 11%;
+  height: 2px;
+  background-color: white;
+  border: none;
+  position: relative;
+  margin: 10px 90px;
+   /* animation-name: animasiya13; */
+   animation-duration: 2.2s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+   position: absolute;
+   animation-timing-function: ease;
+ }
+ 
+ @keyframes animasiya13 {
+   0% {
+     top: 300px;
+     opacity: 1;
+   }
+ 
+   100% {
+     top: 00px;
+     opacity: 1;
+   }
+ }
+
+.yazi14{
+    width: 100%;
+    height: 330px;
+    color: white;
+    position: relative;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+.yazi14 p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 0px 60px;
+  margin-left: 20px;
+ /* animation-name: animasiya14; */
+ animation-duration: 2.5s;
+ animation-fill-mode: forwards;
+ opacity: 0;
+ position: absolute;
+ animation-timing-function: ease;
+}
+
+@keyframes animasiya14 {
+ 0% {
+   top: 250px;
+   opacity: 1;
+ }
+
+ 100% {
+   top: 00px;
+   opacity: 1;
+ }
+}
+
+
+
+.sag4 {
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+.yazi15{
+  width: 100%;
+  height: 500px;
+  position: relative;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+.yazi15 img {
+  width: 78%;
+  height: 385px;
+  position: absolute;
+  left: 7%;
+  top: 30%;
+/* animation-name: animasiya15; */
+animation-duration: 2.3s;
+animation-fill-mode: forwards;
+opacity: 0;
+position: absolute;
+animation-timing-function: ease;
+transition: 1s;
+}
+.yazi15 img:hover{
+  transform: scale(1.1);
+}
+@keyframes animasiya15 {
+0% {
+  top: 400px;
+  opacity: 1;
+}
+
+100% {
+  top: 90px;
+  opacity: 1;
+}
+}
+
+
+.sag4 hr {
+  width: 47%;
+  height: 2px;
+  background-color: rgb(14, 19, 41);
+  border: none;
+  position: absolute;
+  top: 92%;
+  left: 21%;
+}
+
+.sekil {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 60px 40px;
+ position: relative;
+}
+
+.sekilh1 {
+  color: white;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: 75px; 
+  font-size: 20px;
+}
+
+.sekilh1 h1 {
+  position: absolute;
+  top: 0px;
+  left: 37%;
+  letter-spacing: 2px;
+}
+.sekil1 {
+  width: 24%;
+  height: 265px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sekil1 img {
+  width: 100%;
+  height: 265px;
+  transition: 1s;
+}
+.sekil1 img:hover{
+transform: scale(1.1);
+}
+
+.sekil .hover {
+  width: 100%;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  padding: 11px 0px;
+  background-color: rgb(14, 19, 41, 0.8);
+  text-align: center;
+  font-size: 23px;
+  transition: 0.5s;
+}
+
+.sekil1:hover .hover {
+  bottom: 0;
+}
+
+.hover h1 {
+  font-size: 22px;
+  color: white;
+}
+.f1 .mainfinal{
+  width: 100%;
+height: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+text-align: center;
+margin-top: 170px;
+}
+
+.f1 .mainfinal .firsticons{
+  width: 66%;
+  display: flex;
+  color: gray;
+  margin: 20px 18% ;
+
+}
+.f1 .mainfinal .firsticons a{
+  color: #fff !important;
+  border: 1px solid rgba(255,255,255,0.2);
+  display: inline-block;
+  padding: 12px 30px;
+  text-transform: capitalize;
+  font-size: 17px;
+  border-radius: .3cm;
+  margin: 20px 10px;
+  text-decoration: none;
+  margin: auto;
+
+}
+.f1 .firsticons i{
+  font-size: 27px;
+  margin-right: 10px;
+  transition: all .4s ease-out 0s;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+.red{
+  font-size: 13PX;
+text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 37%;
+margin-top: 30px;
+color: rgb(138, 153, 192);
+letter-spacing: 0.41px;
+}
